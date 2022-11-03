@@ -1,0 +1,22 @@
+{
+  "name": "gunbot-configurator",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/Credit-First/Gunbot-Configurator.git",
+  "author": "Alexey Khlebnikov <credit.first000@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node backend/index.js",
+    "prepare": "husky install"
+  },
+  "devDependencies": {
+    "eslint-config-prettier": "^8.5.0",
+    "husky": "^8.0.1",
+    "lint-staged": "^13.0.1",
+    "prettier": "2.6.2"
+  },
+  "bin": "backend/index.js",
+  "lint-staged": {
+    "**/*": "prettier --write --ignore-unknown"
+  }
+}

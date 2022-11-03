@@ -1,0 +1,3 @@
+# Ignore artifacts:
+backend/public/static
+frontend/public/static
